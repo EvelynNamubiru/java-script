@@ -4,3 +4,12 @@ function calculator(a,b){
     console.log('Sum is ' + addition);
     console.log('Difference ' + subtraction);
 }
+
+function showEmployee(name,salary=9000){
+    var name;
+    var salary;
+    return{name,salary};
+}
+
+
+
