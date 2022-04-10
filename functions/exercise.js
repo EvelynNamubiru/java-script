@@ -11,5 +11,15 @@ function showEmployee(name,salary=9000){
     return{name,salary};
 }
 
+function recursive(num){
+    if(num>0){
+        return num+recursive(num-1);
+    }
+    else{
+        return num;
+    }
+}
+}
+
 
 
