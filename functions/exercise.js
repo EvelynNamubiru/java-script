@@ -32,4 +32,10 @@ function evenNumber(arr){
 }
 
 
-
+function add(arr){
+    var sum = 0;
+    for(var i =0;i<=arr.length-1;i++){
+        var sum = sum +arr[i];
+    }
+    return sum;
+}
