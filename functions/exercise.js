@@ -58,3 +58,11 @@ function multiplication(arr){
     }
     return multiple;
 }
+
+function reversedString(str){
+    var string1 = " ";
+    for(var i=str.length-1;i>=0;i--){
+        string1 = string1 =str[i];
+    }
+    return string1;
+}
