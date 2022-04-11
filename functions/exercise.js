@@ -49,3 +49,12 @@ function largestNumber(arr){
     }
     return largest;
 }
+
+function multiplication(arr){
+    var multiple =0;
+    for(var i =0;i<arr.length;i++){
+        multiple = multiple*arr[i];
+
+    }
+    return multiple;
+}
