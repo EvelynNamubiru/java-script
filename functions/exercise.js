@@ -66,3 +66,16 @@ function reversedString(str){
     }
     return string1;
 }
+
+function counting(arr){
+    var count =0;
+    var num =0;
+    for(var i =0;i<arr.length;i++){
+        if(arr[i]%2 ==0){
+            count++;
+        }else{
+            num++;
+        }
+    }
+    return { count,num};
+}
